@@ -181,7 +181,7 @@ export function SidePanel() {
                             synth !== 'granular' &&
                             <SliderGroup
                                 group="modEnvParams"
-                                label={`${synth === 'fm' ? '调制' : '滤波器'}Envelope`}
+                                label={`${synth === 'fm' ? 'Modulation' : 'Filter'}Envelope`}
                                 params={modEnvParams}
                                 onChange={handleParamChange}
                             />
